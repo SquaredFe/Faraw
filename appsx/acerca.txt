@@ -1,0 +1,1 @@
+Faraw Releases es el proyecto de mini-archivos .py que se pueden integrar en Faraw para mejorar la experiencia, esto se hace asi para poder mejorar el rendimiento y utilizar menos espacio en el dispositivo.

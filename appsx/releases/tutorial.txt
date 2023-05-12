@@ -1,0 +1,2 @@
+Faraw automaticamente dependiendo de la version de main.py, descarga archivos desde un enlace directo, estos se almacenan automaticamente. Si quieres modificar los archivos que se descargan, por favor modifica a /Faraw/main/main.py.
+
