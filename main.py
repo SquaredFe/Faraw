@@ -10,6 +10,7 @@ import os
 import sys
 if len(sys.argv) > 1:
     orden = sys.argv[1]
+    # Si la orden es "skip" el sistema saltara automaticamente la descarga.
     if orden == "skip":
         os.system("python3 ./startup.py")
     elif orden == "abort":
