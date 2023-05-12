@@ -2,6 +2,8 @@
 # Faraw es un concepto de sistema operativo hecho en Python, con funciones basicas.
 Faraw es un concepto de sistema operativo en español, como esas maquinas virtuales donde haces tus locuras con .iso, este programa finge que utiliza un .iso cuando en realidad es todo en codigos .py
 
-Faraw nacio como una idea a mediados del 2016, yo de chiquito pensaba en crear un sistema operativo, comence con PowerPoint, luego con AMS, y ahora con un verdadero lenguaje de programacion.
+Faraw nacio como una idea a mediados del 2016, yo de chiquito pensaba en crear un sistema operativo, comence con PowerPoint, luego con AMS, y ahora con un verdadero lenguaje de programacion, ademas de que en el 2022, yo con mi amigo, le mostraba una mis creaciones en Python, y una de ellas fue una version muy temprana y basica de Faraw, de ahi nacio el nombre "Faraw".
+
+Faraw se llama "faraw" por ser un recorte del titulo de la cancion de Tomppabeats "Far Away". Una de mis canciones que me ayudo a desarrollar Faraw y que me agradan mucho.
 
 Faraw tiene una interfaz textual como los viejitos sistemas DOS o Unix.
