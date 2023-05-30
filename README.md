@@ -7,3 +7,10 @@ Faraw nacio como una idea a mediados del 2016, yo de chiquito pensaba en crear u
 Faraw se llama "faraw" por ser un recorte del titulo de la cancion de Tomppabeats "Far Away". Una de mis canciones que me ayudo a desarrollar Faraw y que me agradan mucho.
 
 Faraw tiene una interfaz textual como los viejitos sistemas DOS o Unix.
+
+**VERSIONES CON COMPATIBILIDAD DE APPS:
+Faraw V.1 R.1 
+Faraw V.1 R.2**
+**Para versiones incompatibles:**
+Al iniciar Faraw, agregar el parametro `skip`, y que quede algo asi:
+`python3 ./main.py skip`
