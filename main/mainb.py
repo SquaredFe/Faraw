@@ -17,6 +17,13 @@ if os.path.exists(subdirectory + "/appsx/releases/calculate"):
 else:
     print("Calculadora de Faraw no se ha detectado.")
     print("Si has iniciado Faraw sin los parametros 'skip' puede ser que \nFaraw no pueda detectar aplicaciones.")
+
+if os.path.exists(subdirectory + "/appsx/releases/FarawCalendar"):
+    print("Calendario de Faraw detectado!")
+    appsx + ["Calendario"]
+else:
+    print("Calculadora de Faraw no se ha detectado.")
+    print("Si has iniciado Faraw sin los parametros 'skip' puede ser que \nFaraw no pueda detectar aplicaciones.")
 time.sleep(0.5)
 os.system('cls' if os.name == 'nt' else 'clear')
 print("Faraw version " + faraw_ver + ", Revision " + faraw_rev)
@@ -33,6 +40,9 @@ def dec(cln):
             
         if os.path.exists(subdirectory + "/appsx/releases/neofetch/Faraw-Neofetch/"):
             print("  Faraw Neofetch (abrir con 'apps neofetch')")
+        
+        if os.path.exists(subdirectory + "/appsx/releases/neofetch/FarawCalendar/"):
+            print("  Faraw Calendar (abrir con 'apps calendar')")
         dec("")
     elif usrinp == "help":
         print("¡Bienvenido/a a Faraw, un concepto de sistema operativo textual, aqui te ofrecemos los distintos comandos posibles:")
