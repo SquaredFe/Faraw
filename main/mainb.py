@@ -41,7 +41,7 @@ def dec(cln):
         if os.path.exists(subdirectory + "/appsx/releases/neofetch/Faraw-Neofetch/"):
             print("  Faraw Neofetch (abrir con 'apps neofetch')")
         
-        if os.path.exists(subdirectory + "/appsx/releases/neofetch/FarawCalendar/"):
+        if os.path.exists(subdirectory + "/appsx/releases/FarawCalendar/FarawCalendar"):
             print("  Faraw Calendar (abrir con 'apps calendar')")
         dec("")
     elif usrinp == "help":
@@ -65,7 +65,7 @@ def dec(cln):
             time.sleep(2)
             dec("true")
         elif usrinp.__contains__("calendar") == True:
-            os.system("python3 " + subdirectory + "/appsx/releases/neofetch/FarawCalendar/main/main.py")
+            os.system("python3 " + subdirectory + "/appsx/releases/FarawCalendar/FarawCalendar/main/main.py")
             print("Volviendo a Faraw...")
             time.sleep(2)
             dec("true")
