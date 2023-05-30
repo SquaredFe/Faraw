@@ -20,7 +20,7 @@ if len(sys.argv) > 1:
     orden = sys.argv[1]
     # Si la orden es "skip" el sistema saltara automaticamente la descarga.
     if orden == "skip":
-        os.system("python3 ./dev.py")
+        os.system("python3 ./main/mainb.py")
     elif orden == "abort":
         os.abort
 else:
@@ -99,5 +99,9 @@ with zipfile.ZipFile(nombre2, 'r') as zip_ref:
 
 if os.path.exists(destination_dir2):
     print("La aplicacion Calendar ya existe o ya se instalo, saltando...")
+    print("Limpiando...")
+    os.remove("./calculate.zip")
+    os.remove("./calendar.zip")
+    os.remove("./neofetch.zip")
 os.system("python3 ./main/mainb.py normal")
 print("Transladado a main nuevamente, saliendo...")
