@@ -13,7 +13,7 @@ import zipfile
 import requests
 import json
 # Hacer una solicitud GET a la API de GitHub
-response = requests.get("https://api.github.com/repos/fefedevv/FarawCalculate/releases/latest") 
+response = requests.get("https://api.github.com/repos/SquaredFe/FarawCalculate/releases/latest") 
 data = response.json()
 latest_release = data["name"]
 if len(sys.argv) > 1:
@@ -25,7 +25,7 @@ if len(sys.argv) > 1:
         os.abort
 else:
     time.sleep(1)
-api_url = "https://api.github.com/repos/fefedevv/FarawCalculate/releases"
+api_url = "https://api.github.com/repos/SquaredFe/FarawCalculate/releases"
 response = urllib.request.urlopen(api_url)
 data = json.load(response)
 
@@ -53,7 +53,7 @@ if os.path.exists(destination_dir):
     print("La aplicacion Calculadora de Faraw ya existe o ya se instalo, saltando...")
 print("Transladado a main nuevamente, saliendo...")
 
-api_url = "https://api.github.com/repos/fefedevv/FarawNeofetch/releases"
+api_url = "https://api.github.com/repos/SquaredFe/FarawNeofetch/releases"
 response2 = urllib.request.urlopen(api_url)
 data2 = json.load(response2)
 latest_release2 = data2[0]["tag_name"]
@@ -77,7 +77,7 @@ if os.path.exists(destination_dir2):
     print("La aplicacion Neofetch ya existe o ya se instalo, saltando...")
 
 # Faraw Calendar
-api_url = "https://api.github.com/repos/fefedevv/FarawCalendar/releases"
+api_url = "https://api.github.com/repos/SquaredFe/FarawCalendar/releases"
 response2 = urllib.request.urlopen(api_url)
 data2 = json.load(response2)
 latest_release2 = data2[0]["tag_name"]
