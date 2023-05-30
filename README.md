@@ -8,9 +8,5 @@ Faraw se llama "faraw" por ser un recorte del titulo de la cancion de Tomppabeat
 
 Faraw tiene una interfaz textual como los viejitos sistemas DOS o Unix.
 
-**VERSIONES CON COMPATIBILIDAD DE APPS:
-Faraw V.1 R.1 
-Faraw V.1 R.2**
-**Para versiones incompatibles:**
-Al iniciar Faraw, agregar el parametro `skip`, y que quede algo asi:
-`python3 ./main.py skip`
+**LEER**
+Si vas a instalar Faraw, no es necesario instalar la ultima release, puedes simplemente descargar el code y extraerlo. Tampoco es necesario descargar las aplicaciones, estas se instalaran automaticamente al iniciar main.py del mismo repositorio de Faraw.
